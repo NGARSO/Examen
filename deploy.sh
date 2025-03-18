@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Variables
-CONTAINER_NAME=" utilisateur/labisi2025"
-IMAGE_NAME=" utilisateur/labisi2025:latest"
+CONTAINER_NAME=" ngarso/labisi2025"
+IMAGE_NAME=" ngarso/labisi2025:latest"
 
 # Arrêt du conteneur existant
 sudo docker stop $CONTAINER_NAME || true
